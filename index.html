@@ -22,6 +22,8 @@
 </head>
 <body class="fontfamity-manrope">
     <header>
+
+      <!-- Nav Section Start -->
         <nav>
             <div class="container mx-auto px-8 lg:px-24 mt-2">
                 <div class="navbar bg-base-100">
@@ -50,12 +52,56 @@
                       </ul>
                     </div>
                     <div class="navbar-end space-x-7 flex justify-center">
-                      <img class="hidden lg:flex" src="./Images/search.png" alt="">
+                      <img class="hidden lg:flex" src="./images/search.png" alt="">
                       <a class="btn bg-[#FF4240] px-5 py-4 text-white font-bold text-sm">Get Ticket</a>
                     </div>
                   </div>
             </div>
         </nav>
+        <!-- Nav Section Start -->
+
+
+        <section>
+          <div class="container px-8 lg:px-24 mt-16">
+            <div class="carousel w-full">
+
+              <!-- Slider 1 -->
+              <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/1.png)] bg-cover bg-center h-[65vh] rounded-2xl">
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a> 
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+
+
+
+              <!-- Slider 2 -->
+              <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/hokey.jpg)] bg-cover bg-center h-[65vh] rounded-2xl">
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a> 
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+
+
+              <!-- Slider 3 -->
+              <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(./images/hokey-2.jpg)] bg-cover bg-center h-[65vh] rounded-2xl">
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a> 
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a> 
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </header>
 
 
